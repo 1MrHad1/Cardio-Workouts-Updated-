@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>FatBurner</title>
+</head>
+
+<body>
+   
+    
+    <div class="button_container">
+    <button  id = "b1" type="button" class="btn" onclick="myFun1()">
+        <span class="button__text">Men</span>
+        <span class="button__icon">
+            <ion-icon name="male"></ion-icon>
+        </span>
+        <script>
+            function myFun1(){
+                window.location.href="men.html";
+            }
+        </script>
+    </button>
+</div>
+<br>
+<br>
+    <div class="container">
+    <button  id = "b2" type="button" class="btn" onclick="myFun()">
+        
+        <span class="button__text">Women</span>
+        <span class="button__icon">
+            <ion-icon name="female"></ion-icon>
+        </span>
+        <script>
+            function myFun(){
+                window.location.href="women.html";
+            }
+        </script>
+    </button>
+</div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

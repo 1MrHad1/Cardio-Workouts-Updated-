@@ -1,0 +1,37 @@
+.womencolor{
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+}
+.mencolor{
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+a{
+    color: black;
+}
+a:hover{
+    color:white;
+}
+.round{
+    border-radius: 50%;
+}
+.cube{
+    border-radius: 25%;
+}
+h2 {
+    text-align:center;
+    
+}
+p {
+    text-align:justify;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.fstyle{
+    font-family:verdana;
+    
+     
+}
+.pstyle{
+    font-size:xx-large;
+    font-family:Helvetica;
+}
